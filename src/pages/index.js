@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Navbar from '@/components/navbar/navbar'
 import Subtitle from '@/components/tipography/subtitle/subtitle'
 import Container from '@/components/container/container'
+import SalesCard from '@/components/cards/saleCard/saleCard'
+import Button from '@/components/forms/button/button'
 
 export default function Home() {
   return (
@@ -18,6 +20,9 @@ export default function Home() {
         <Container>
           <div>
             <Subtitle>Promoções</Subtitle>
+            <div>
+              <SalesCard />
+            </div>
           </div>
 
           <div>
