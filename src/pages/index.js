@@ -5,7 +5,7 @@ import styles from '@/styles/index.module.css'
 import Navbar from '@/components/navbar/navbar'
 import Subtitle from '@/components/tipography/subtitle/subtitle'
 import Container from '@/components/container/container'
-import SalesCard from '@/components/cards/saleCard/saleCard'
+import SaleCard from '@/components/cards/saleCard/saleCard'
 import GameCard from '@/components/cards/gameCard/gameCard'
 
 export default function Home() {
@@ -22,10 +22,25 @@ export default function Home() {
         <Container>
           <div className={styles.session}>
             <Subtitle>Promoções</Subtitle>
-            <div className={styles.salecontainer}> 
-              <SalesCard />
-              <SalesCard />
-              <SalesCard />
+            <div className={styles.salecontainer}>
+              <SaleCard
+                image={'league-of-legends.jpg'}
+                discount='60%'
+                fullPrice='99,90'
+                discountPrice='39,96'
+              />
+              <SaleCard
+                image={'dota-2.jpg'}
+                discount='30%'
+                fullPrice='79,90'
+                discountPrice='55,93'
+              />
+              <SaleCard
+                image={'valorant.jpg'}
+                discount='40%'
+                fullPrice='199,90'
+                discountPrice='119,94'
+              />
             </div>
           </div>
 
