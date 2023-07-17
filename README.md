@@ -2,7 +2,7 @@
 
 Esse projeto foi construído para fins didáticos no evento Semana da Evolução na Programação.
 
-Esta é a base para o projeto, com todas as imagens necessárias.
+Deploy do projeto no vercel: https://devsteam-sandy.vercel.app/ 
 
 ## Tecnologias
 
@@ -32,4 +32,6 @@ npm run dev
 ```
 
 Depois, é só abrir [http://localhost:3000](http://localhost:3000) com o seu navegador.
+
+
 
